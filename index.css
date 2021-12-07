@@ -1,0 +1,691 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.search {
+    width: 50%;
+    height: 100%;
+}
+
+.search-content {
+    background-color: white;
+    height: 80%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    border: 1px black solid;
+}
+
+.search-content .inputsearch {
+    font-size: 22px;
+    font-weight: 1000;
+    vertical-align: middle;
+    height: 50px;
+    border: none;
+}
+
+.search-content input {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    /* position: absolute;
+    left: 100px; */
+    /* position: relative; */
+}
+
+.menu-con {
+    text-align: right;
+}
+
+.menu-nav {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.hinh1 {
+    background-image: url(./images/hinh1.PNG);
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+}
+
+.text1 {
+    width: 60%;
+    height: 100%;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 5% 20% 40% 35%;
+}
+
+.boder1 {
+    background-color: turquoise;
+    height: 100%;
+    width: 2%;
+    grid-row: 2/3;
+}
+
+.text2 {
+    font-size: 95px;
+    grid-row: 3/4;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text3 {
+    font-size: 25px;
+    grid-row: 4/7;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.technology_news {
+    background-color: white;
+    height: 550px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.technology_news_text {
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.technology_news_text h1 {
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 100px;
+}
+
+.technology_news_text h2 {
+    font-size: 60px;
+    font-family: serif;
+    margin: auto 0;
+}
+
+.technology_news_text h3 {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.technology_news_picture {
+    background-image: url(./images/hinh2.PNG);
+    height: 90%;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+.future {
+    height: 500px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.future_of_work {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 20% 30% 30% 20%;
+    grid-template-columns: 20% 80%;
+}
+
+.future_of_work_text {
+    height: 100%;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    word-wrap: break-word;
+    position: absolute;
+}
+
+.future h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    border: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    position: absolute;
+    left: 180px;
+    margin-top: 60px;
+}
+
+.future p {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+    position: absolute;
+    left: 180px;
+    margin-top: 110px;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.future_of_work_picture {
+    height: 100%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.future_of_work_picture2 {
+    background-color: turquoise;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 30% 20%;
+}
+
+.future_of_work_background {
+    background-image: url(./images/hinh14.png);
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.future_of_work_picture3 {
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.The_robots {
+    background-color: white;
+    height: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.The_robots_of_ces {
+    height: 80%;
+    grid-row: 2/3;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 5% 15% 15% 15% 15% 15% 15% 5%;
+    grid-template-rows: 50% 50%;
+}
+
+.The_robots_picture1 {
+    min-height: 50%;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: chocolate;
+    height: 90%;
+    margin: 10px;
+}
+
+.The_robots_picture1 h1 {
+    font-size: 60px;
+    color: white;
+    font-family: cursive;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.The_robots_picture2 {
+    min-height: 50%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-image: url(./images/hinh4.PNG);
+}
+
+.The_robots_picture3 {
+    min-height: 95%;
+    grid-column: 4/6;
+    grid-row: 1/4;
+    background-image: url(./images/hinh3.PNG);
+}
+
+.The_robots_picture4 {
+    background-color: cornflowerblue;
+    min-height: 95%;
+    grid-column: 6/8;
+    grid-row: 1/4;
+    padding: 10px;
+}
+
+.The_robots_picture4 h2 {
+    font-size: 25px;
+    color: white;
+    word-wrap: break-word;
+    font-weight: 100;
+    font-style: oblique;
+    margin-top: 60px;
+}
+
+
+/* .learn_more {
+    
+} */
+
+.learn_more1 {
+    background-color: turquoise;
+    height: 100%;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    grid-row: 3/4;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.background {
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    box-sizing: border-box;
+    height: 500px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20% 60% 20%;
+    margin: 0 auto;
+}
+
+.robotizationt {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+    margin-left: 100px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.iconrobot {
+    height: 100%;
+    width: 15%;
+    grid-row: 1/2;
+    color: rgb(100, 100, 6);
+}
+
+.robotizationt h1 {
+    grid-template-rows: 2/3;
+    height: 100%;
+    width: 100%;
+    color: rgb(100, 100, 6);
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.robotizationt p {
+    grid-template-rows: 3/4;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-weight: 50;
+    font-family: cursive;
+}
+
+.engineering {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 100px;
+}
+
+.iconengineering {
+    height: 100%;
+    width: 15%;
+    grid-row: 1/2;
+    color: rgb(100, 100, 6);
+}
+
+.engineering h1 {
+    grid-template-rows: 2/3;
+    height: 100%;
+    width: 100%;
+    color: rgb(100, 100, 6);
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.engineering p {
+    grid-template-rows: 3/4;
+    height: 100%;
+    width: 100;
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-weight: 50;
+    font-family: cursive;
+}
+
+.industry {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 100px;
+}
+
+.iconindustry {
+    height: 100%;
+    width: 15%;
+    grid-row: 1/2;
+    color: rgb(100, 100, 6);
+}
+
+.industry h1 {
+    grid-template-rows: 2/3;
+    height: 100%;
+    width: 100%;
+    color: rgb(100, 100, 6);
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.industry p {
+    grid-template-rows: 3/4;
+    height: 100%;
+    width: 100;
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-weight: 50;
+    font-family: cursive;
+}
+
+.technology {
+    background-color: white;
+    height: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.technology_trends {
+    height: 30%;
+    margin: 10px;
+}
+
+.technology_trends h1 {
+    color: rgb(117, 117, 18);
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.technology_trends p {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.technology_picture {
+    height: 60%;
+    margin: o auto;
+    margin-left: 90px;
+}
+
+.black_background {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    grid-template-rows: 15% 70% 15%;
+}
+
+.black_background_icon {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 80%;
+    background-color: rgb(185, 185, 132);
+    width: 10%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.black_background_text {
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.black_background_text h0 {
+    font-size: 100px;
+    color: rgb(185, 185, 132);
+    font-family: cursive;
+}
+
+.black_background_text h1 {
+    font-size: 25px;
+    color: white;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.black_background_text p {
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.background_learmore {
+    background-color: rgb(147, 229, 229);
+    height: 800px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.background_learmore_picture {
+    background-image: url(./images/hinh8.PNG);
+    height: 80%;
+    width: 90%;
+    grid-column: 1/2;
+    text-align: right;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.background_learmore_text {
+    background-color: rgb(16, 200, 247);
+    height: 80%;
+    width: 80%;
+    grid-column: 2/3;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.background_learmore_text h1 {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.background_learmore_text h2 {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.btn_more {
+    font-size: 20px;
+    background-color: rgb(185, 235, 247);
+    text-align: center;
+    padding: 0px;
+    height: 10%;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+.robots_and_ai {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.robots_and_ai_picture {
+    background-image: url(./images/hinh9.PNG);
+    height: 100%;
+    width: 37%;
+    margin-left: 100px;
+}
+
+.robots_and_ai_text {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50% 40% 10%;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+}
+
+.robots_and_ai_text1 {
+    position: relative;
+}
+
+.robots_and_ai_text1 p {
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    /* height: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2; */
+}
+
+.robots_and_ai_picture1 {
+    background-image: url(./images/hinh10.png);
+    height: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.robots_and_ai_text2 {
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: 0 auto;
+}
+
+.robots_and_ai_text2 h0 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.robots_and_ai_text2 h1 {
+    font-size: 20px;
+    font-weight: 100;
+    height: 10%;
+}
+
+.btn_robots {
+    background-color: rgb(10, 220, 228);
+    height: 100%;
+    font-size: 20px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    border: none;
+    outline: none;
+}
+
+.sample_text {
+    background-color: darkblue;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.sample_text1 {
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: darkgrey;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.footer1 {
+    background-color: darkred;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
